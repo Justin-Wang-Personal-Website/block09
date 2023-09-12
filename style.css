@@ -1,0 +1,64 @@
+.emblem {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gray;
+    font-size:small
+}
+
+h3 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h4 {
+    text-align: center;
+    font-family:monospace;
+}
+
+p {
+    text-indent: 50px;
+}
+
+img {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+
+body {
+    background:#5e4d4d;
+    color: #232323;
+  }
+  
+/* Nav Bar Background */
+.navigation {
+    overflow: hidden;
+    background-color: cornsilk;
+}
+
+/* Nav Bar Links */
+.navigation a {
+    float: left;
+    color:#b88080;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 18px
+}
+
+/* On mouse hover */
+.navigation a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: #ddd;
+}
+
+/* Current link */
+.current {
+    color: white;
+    background-color: #3a3d31;
+}

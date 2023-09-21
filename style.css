@@ -80,6 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     order: 2;
+    width: 30em;
 }
 
 .message > textarea {

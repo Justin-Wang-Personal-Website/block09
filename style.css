@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box !important;
+}
+
 .emblem {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -61,4 +65,49 @@ body {
 .current {
     color: white;
     background-color: #3a3d31;
+}
+
+/* Contact Form CSS Flex */
+
+.contactForm {
+    display: flex;
+    padding: .5em;
+    background: darkgray;
+    border-radius: 4px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.message > textarea {
+    flex: 1; 
+    min-width: 15em;
+}
+
+.contact {
+    flex: 1; 
+    order: 1;
+    margin-right: 2em; 
+}
+
+.contact input {
+    width: 100%;
+}
+
+.contact input,
+.contact button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.contact button {
+    background: gray;
+    color: white;
+}
+
+.contact button:hover {
+    background: salmon;
 }
